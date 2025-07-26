@@ -1,0 +1,21 @@
+2025-07-24 11:15:38 INFO  LoginTest:24 - =========== STARTING TEST: loginSwagLabs ===========
+2025-07-24 11:15:47 INFO  LoginTest:38 - ✅ Test Passed: loginSwagLabs
+2025-07-24 11:15:48 INFO  LoginTest:44 - =========== END TEST: loginSwagLabs ===========
+
+2025-07-24 11:20:05 INFO  LoginTest:24 - =========== STARTING TEST: loginSwagLabs ===========
+2025-07-24 11:20:11 INFO  LoginTest:38 - ✅ Test Passed: loginSwagLabs
+2025-07-24 11:20:11 INFO  LoginTest:44 - =========== END TEST: loginSwagLabs ===========
+
+
+2025-07-24 11:22:58 INFO  LoginTest:24 - =========== STARTING TEST: loginSwagLabs ===========
+2025-07-24 11:23:04 INFO  LoginTest:38 - ✅ Test Passed: loginSwagLabs
+2025-07-24 11:23:04 INFO  LoginTest:44 - =========== END TEST: loginSwagLabs ===========
+
+2025-07-24 11:24:29 INFO  LoginTest:24 - =========== STARTING TEST: loginSwagLabs ===========
+2025-07-24 11:24:32 ERROR LoginTest:31 - ❌ Test Failed: loginSwagLabs
+2025-07-24 11:24:32 INFO  LoginTest:44 - =========== END TEST: loginSwagLabs ===========
+
+2025-07-24 11:24:51 INFO  LoginTest:24 - =========== STARTING TEST: loginSwagLabs ===========
+2025-07-24 11:24:57 INFO  LoginTest:38 - ✅ Test Passed: loginSwagLabs
+2025-07-24 11:24:57 INFO  LoginTest:44 - =========== END TEST: loginSwagLabs ===========
+

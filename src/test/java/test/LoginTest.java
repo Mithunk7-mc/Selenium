@@ -2,7 +2,8 @@ package test;
 
 import BaseHealth.BaseTest;
 import environment.DriverFactory;
-import org.openqa.selenium.By;
+import Pages.LoginPage;
+import data.TestData;
 import org.testng.annotations.Test;
 import io.qameta.allure.*;
 
@@ -14,9 +15,7 @@ public class LoginTest extends BaseTest {
     @Severity(SeverityLevel.CRITICAL)
     public void loginSwagLabs() {
         DriverFactory.getDriver().get("https://www.saucedemo.com/v1/");
-        DriverFactory.getDriver().findElement(By.id("user-name")).sendKeys("standard_user");
-        DriverFactory.getDriver().findElement(By.id("password")).sendKeys("secret_sauce");
-        DriverFactory.getDriver().findElement(By.id("login-button")).click();
+        LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
+        loginPage.login(TestData.VALID_USERNAME, TestData.VALID_PASSWORD);
     }
 }
-
